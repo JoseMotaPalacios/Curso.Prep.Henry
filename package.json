@@ -12,8 +12,9 @@
   },
   "author": "Henry",
   "license": "ISC",
-  "jest": {
-    "testURL": "http://localhost/"
+  "jest": {"verbose": true,
+    "testEnvironmentOptions": {"url": "http://localhost/"
+}
   },
   "dependencies": {
     "axios": "^0.21.4",
